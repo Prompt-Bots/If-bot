@@ -34,7 +34,7 @@ router.post('/api/1.0', function(req, res, next) {
 
 		//Remove duplicates
 		resultArray = Array.from(new Set(resultArray));
-
+		wordList = Array.from(new Set(wordList));
 	  	//This is the response we'll need to send back to our user
 	  	if(resultArray.length == 0){
 	  		  	var response = {
@@ -57,8 +57,8 @@ router.post('/api/1.0', function(req, res, next) {
 	  			   sendmms: true,
 	  			   showauthurl: false,
 	  			   authstate: null,
-	  			   text: "You said " + lastWord + " : so try these bots -- " + resultArray,
-	  			   speech: "You said " + lastWord + " : so try these bots -- " + resultArray,
+	  			   text: "You said {" + wordList + "} : so try these bots -- " + resultArray,
+	  			   speech: "You said {" + wordList + "} : so try these bots -- " + resultArray,
 	  			   status: "OK",
 	  			   webhookreply: null,
 	  			   images: [
