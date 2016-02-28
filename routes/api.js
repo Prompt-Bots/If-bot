@@ -25,8 +25,8 @@ router.post('/api/1.0', function(req, res, next) {
 	   sendmms: true,
 	   showauthurl: false,
 	   authstate: null,
-	   text: "Hello World! You said: " + listArray,
-	   speech: "Hello World! You said: " + listArray,
+	   text: "You're feeling: " + lastWord + " so try these bots-- " + listArray,
+	   speech: "You're feeling: " + lastWord + " so try these bots-- " + listArray,
 	   status: "OK",
 	   webhookreply: null,
 	   images: [

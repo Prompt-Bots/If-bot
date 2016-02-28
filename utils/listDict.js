@@ -1,5 +1,3 @@
-var $ = require('jquery')
-
 var listDictionary = {
 
   searchforKeyword : function(lastWord) {
