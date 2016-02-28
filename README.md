@@ -21,7 +21,10 @@ Ex: ```@If I need a ride```
 ---> Response: "Based on "ride": you should check out @uber, @511, ... etc
 
 Ex: ```@If I need a reminder```
----> Response: "Based on "sick": you should check out @reminder ... etc
+---> Response: "Based on "reminder": you should check out @reminder ... etc
+
+Ex: ```@If I want to invest```
+---> Response: "Based on "invest": you should check out @stock ... etc
 
 #Why we made If-bot
 

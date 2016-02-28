@@ -21,7 +21,17 @@ var listDictionary = {
         "@weather" : ["forecast", "umbrella", "weather"],
         "@time" : ["date", "week", "reminder"],
         "@gmail" : ["email", "update"],
-        "@nyt" : ["news", "paper", "update"]
+        "@nyt" : ["news", "paper", "update"],
+        "@angellist" : ["vc", "startups", "jobs"],
+        "@marcobot" : ["marco", "rubio", "president", "elections"],
+        "@stock" : ["money", "stock", "market", "invest"],
+        "@rottentomatoes" : ["movies", "reviews", "theatre", "rating"],
+        "@producthunt" : ["startups", "product", "website", "discover"],
+        "@wolfram" : ["math", "calculate", "tool"],
+        "@directions" : ["directions", "map", "location"],
+        "@sms" : ["message", "sms", "text"],
+        "@remind" : ["reminder", "set", "tasks"],
+        "@paypal" : ["money", "send", "online", "transaction"]
 		};
 
     var returnList = [];
