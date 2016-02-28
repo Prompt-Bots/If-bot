@@ -24,7 +24,9 @@ Response: ```"Hello World! You said: Prompt is awesome!"```
 
 ```cd NodePromptManager```
 
-```npm install```
+```npm install*```
+
+*You will not be able to run this command if you do not have npm installed. The best way to install npm is to install node using the node.js installer; npm is installed as part of node. [Click here to install node](https://nodejs.org/en/)
 
 #Set up your webserver
 
