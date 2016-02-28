@@ -1,6 +1,6 @@
-# If-bot -- metasearch for prompt bots based upon your mood
+# If-bot
 
-Bot on the https://promptapp.io platform
+Metasearch for Prompt bots and bot on the https://promptapp.io platform
 
 Heard about this awesome new app called Prompt? 
 
@@ -8,7 +8,7 @@ Heard about this awesome new app called Prompt?
 
 #What our bot does
 
-If-bot is designed to give users of prompt a better idea of what prompts are available and most useful to them based on their current mood. 
+If-bot is designed to give users of Prompt a better idea of what bots are available and most useful to them based on their current mood. 
 
 #Example Uses
 
