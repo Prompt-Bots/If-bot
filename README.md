@@ -15,16 +15,19 @@ If-bot is designed to give users of Prompt a better idea of what bots are availa
 #Example Uses
 
 Ex: ```@If I am feeling hungry```
----> Response: ```"Based on "hungry": you should check out @dominos, @postmates```
+---> Response: ```"You said {hungry, I, feeling}: you should check out @dominos, @postmates```
 
 Ex: ```@If I need a ride```
----> Response: ```"Based on "ride": you should check out @uber, @511```
+---> Response: ```"You said {ride, I, need}: you should check out @uber, @511```
 
 Ex: ```@If I need a reminder```
----> Response: ```"Based on "reminder": you should check out @reminder```
+---> Response: ```"You said {reminder, I, need}: you should check out @reminder```
 
 Ex: ```@If I want to invest```
----> Response: ```"Based on "invest": you should check out @stock```
+---> Response: ```"You said {invest, I, want}: you should check out @stock```
+
+Ex: ```@If I want to learn math and eat food"```
+---> Response: ```"You said {food,I,want,math} : so try these bots -- @recipe,@yelp,@dominos,@calc,@wolfram"```
 
 #Why we made If-bot
 
