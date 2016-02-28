@@ -1,4 +1,5 @@
-
+var WordPOS = require('wordpos');
+var wordpos = new WordPOS();
 //Function to split a string 
 var parseHelper  = {
 
