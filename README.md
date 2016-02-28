@@ -10,6 +10,8 @@ Heard about this awesome new app called Prompt?
 
 If-bot is designed to give users of Prompt a better idea of what bots are available and most useful to them based on their current mood. 
 
+![alt-image](https://cloud.githubusercontent.com/assets/5935411/13378557/0e09d566-ddbf-11e5-9e7f-deae03678d95.jpg)
+
 #Example Uses
 
 Ex: ```@If I am feeling hungry```
