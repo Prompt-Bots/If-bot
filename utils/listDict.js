@@ -19,7 +19,7 @@ var listDictionary = {
         "@dictionary" : ["word", "dictionary", "help"],
         "@nest" : ["heat", "thermostat"],
         "@weather" : ["forecast", "umbrella", "weather"],
-        "@time" : ["date", "week", "reminder"],
+        "@time" : ["date", "week", "reminder", "time"],
         "@gmail" : ["email", "update"],
         "@nyt" : ["news", "paper", "update"],
         "@angellist" : ["vc", "startups", "jobs"],
