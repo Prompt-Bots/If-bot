@@ -2,6 +2,8 @@ var express = require('express');
 var router = express.Router();
 var requestHelper = require('../utils/requestHelper');
 var parseHelper = require('../utils/parseHelper');
+var listDict = require('../utils/listDict');
+
 
 /* Main entry point for prompt requests */
 router.post('/api/1.0', function(req, res, next) {
@@ -11,6 +13,9 @@ router.post('/api/1.0', function(req, res, next) {
 
 	//For now we'll just look at the last word in the message. This should be a noun that describes what we are looking for
 	var lastWord = parseHelper.getLastWordInMessage(message);
+
+	//Access the dict for services and matching sentiments 
+	var listDictionary = listDict.searchforKeyword();
 
 	console.log(lastWord);
 
