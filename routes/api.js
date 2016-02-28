@@ -15,17 +15,18 @@ router.post('/api/1.0', function(req, res, next) {
 	var lastWord = parseHelper.getLastWordInMessage(message);
 
 	//Access the dict for services and matching sentiments 
-	var listDictionary = listDict.searchforKeyword();
+	var listArray = listDict.searchforKeyword(lastWord);
 
 	console.log(lastWord);
+	console.log(listArray);
 
   	//This is the response we'll need to send back to our user
   	var response = {
 	   sendmms: true,
 	   showauthurl: false,
 	   authstate: null,
-	   text: "Hello World! You said: " + message,
-	   speech: "Hello World! You said: " + message,
+	   text: "Hello World! You said: " + listArray,
+	   speech: "Hello World! You said: " + listArray,
 	   status: "OK",
 	   webhookreply: null,
 	   images: [
