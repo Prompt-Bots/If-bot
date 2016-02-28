@@ -17,25 +17,41 @@ router.post('/api/1.0', function(req, res, next) {
 	//Access the dict for services and matching sentiments 
 	var listArray = listDict.searchforKeyword(lastWord);
 
-	console.log(lastWord);
-	console.log(listArray);
-
   	//This is the response we'll need to send back to our user
-  	var response = {
-	   sendmms: true,
-	   showauthurl: false,
-	   authstate: null,
-	   text: "You're feeling: " + lastWord + " so try these bots-- " + listArray,
-	   speech: "You're feeling: " + lastWord + " so try these bots-- " + listArray,
-	   status: "OK",
-	   webhookreply: null,
-	   images: [
-	      {
-	         imageurl: "http://api.dev.promptapp.io/images/random/helloworld.gif",
-	         alttext: "Hello World!"
-	      }
-	   ]
-	}
+  	if(listArray.length == 0){
+  		  	var response = {
+  			   sendmms: true,
+  			   showauthurl: false,
+  			   authstate: null,
+  			   text: "No suggestions",
+  			   speech: "No suggestions",
+  			   status: "OK",
+  			   webhookreply: null,
+  			   images: [
+  			      {
+  			         imageurl: "",
+  			         alttext: ""
+  			      }
+  			   ]
+  			}
+  	} else{
+  		  	var response = {
+  			   sendmms: true,
+  			   showauthurl: false,
+  			   authstate: null,
+  			   text: "You said " + lastWord + " : so try these bots -- " + listArray,
+  			   speech: "You said " + lastWord + " : so try these bots -- " + listArray,
+  			   status: "OK",
+  			   webhookreply: null,
+  			   images: [
+  			      {
+  			         imageurl: "",
+  			         alttext: ""
+  			      }
+  			   ]
+  			}
+  	}
+  	
 
 	//Return the json response
   	res.json(response);
