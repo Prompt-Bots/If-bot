@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'NodePromptManager' });
+  res.render('index', { title: 'If-Bot' });
 });
 
 module.exports = router;
