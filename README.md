@@ -34,4 +34,4 @@ Ex: ```@If I want to learn math and eat food"```
 Over the past few days we have sort of fallen in love with the potential of this amazing platform. We are anticipating the day when there are hundreds of bots on Prompt, and we hope that If-bot will help all those users get acquainted with Prompt. 
 
 #____________________________
-![@PeterKaminski09](http://github.com/peterkaminski09) and ![@Monte9](http://github.com/monte9) -- HackTech16
+[@PeterKaminski09](http://github.com/peterkaminski09) and [@Monte9](http://github.com/monte9) -- HackTech16
